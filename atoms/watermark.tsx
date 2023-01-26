@@ -1,8 +1,11 @@
+import { Colors } from "@/utils/theme";
+import $ from "@master/literal";
 import React, { HTMLAttributes } from "react";
 
 export type WatermarkProps = HTMLAttributes<SVGElement>;
 
 export const Watermark = (props: WatermarkProps) => {
+
 	return (
 		<svg
 			id="Layer_2"
@@ -10,11 +13,18 @@ export const Watermark = (props: WatermarkProps) => {
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 618.91 324.2"
 			{...props}
-            className="abs bottom:0 left:20% h:40% w:20%"
+			className={$`
+				abs 
+				bottom:0 
+				left:40 
+				h:40% 
+				w:20%
+				fill:#ebc6d7 
+				fill:${Colors.Pink}:hover 
+				stroke:#ebc6d7
+				stroke:${Colors.Pink}:hover
+			`}
 		>
-			<defs>
-				<style>{".cls-2{fill:#eae5e4}"}</style>
-			</defs>
 			<g opacity={0.05} id="Layer_1-2" data-name="Layer 1">
 				<path
 					className="cls-2"

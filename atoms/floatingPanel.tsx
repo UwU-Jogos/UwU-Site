@@ -13,7 +13,8 @@ export const FloatingPanel = (props: FloatingPanelProps) => {
             className={$`
                 abs
                 bottom:0
-                w:100%
+				h:86%
+				right:0
                 z:-1
                 
             `}
