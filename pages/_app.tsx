@@ -1,6 +1,6 @@
 import "@master/css";
 import "@master/normal.css";
-import "@fontsource/open-sans"; // Defaults to weight 400.
+import "@fontsource/open-sans";
 
 import type { AppProps } from "next/app";
 

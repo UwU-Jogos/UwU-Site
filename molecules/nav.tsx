@@ -19,7 +19,7 @@ export const Nav = () => {
 		<nav className="h:5vh w:100% flex">
 			<div className="flex flex:1 jc:space-between ai:center">
 				<Logo className="h:128 w:128" />
-				<ul className="flex jc:space-between ai:center gap:16">
+				<ul className="flex jc:space-between ai:center gap:1.5rem">
 					{Icons.map((Icon) => (
 						<li key={useId()}>
 							<Icon />

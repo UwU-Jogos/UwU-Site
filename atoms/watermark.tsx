@@ -18,7 +18,7 @@ export const Watermark = (props: WatermarkProps) => {
 				bottom:0 
 				left:40 
 				h:40% 
-				w:20%
+				w:30%
 				fill:#ebc6d7 
 				fill:${Colors.Pink}:hover 
 				stroke:#ebc6d7

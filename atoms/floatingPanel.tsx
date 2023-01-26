@@ -12,11 +12,10 @@ export const FloatingPanel = (props: FloatingPanelProps) => {
 			{...props}
             className={$`
                 abs
-                bottom:0
-				h:86%
+                bottom:-3rem
+				h:80%
 				right:0
                 z:-1
-                
             `}
 		>
 			<defs>

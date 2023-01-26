@@ -12,10 +12,9 @@ export const DiscordIcon = (props: DiscordIconProps) => {
 			{...props}
 			className={$`
 				cursor:pointer 
-                h:24
-                w:24
-				w:${42 + 10}:hover
-				h:${32 + 10}:hover
+                h:32
+                w:32
+				transform: scale(1.6):hover
 				fill:#ebc6d7 
 				fill:${Colors.Pink}:hover 
 				stroke:#ebc6d7

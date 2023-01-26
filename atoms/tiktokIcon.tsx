@@ -12,8 +12,9 @@ export const TiktokIcon = (props: TiktokIconProps) => {
 			{...props}
 			className={$`
 				cursor:pointer 
-                h:24
-                w:24 
+                h:32
+                w:32 
+				transform: scale(1.6):hover
 				fill:#ebc6d7 
 				fill:${Colors.Pink}:hover 
 				stroke:#ebc6d7
