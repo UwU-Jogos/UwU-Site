@@ -1,18 +1,18 @@
 import { DiscordIcon } from "@/atoms/discordIcon";
-import { InstagramIcon } from "@/atoms/instagramIcon";
+// import { InstagramIcon } from "@/atoms/instagramIcon";
 import { Logo } from "@/atoms/logo";
-import { TiktokIcon } from "@/atoms/tiktokIcon";
-import { TwitterIcon } from "@/atoms/twitterIcon";
-import { YoutubeIcon } from "@/atoms/youtubeIcon";
+// import { TiktokIcon } from "@/atoms/tiktokIcon";
+// import { TwitterIcon } from "@/atoms/twitterIcon";
+// import { YoutubeIcon } from "@/atoms/youtubeIcon";
 import { useId } from "react";
 
 export const Nav = () => {
 	const Icons = [
 		DiscordIcon,
-		TiktokIcon,
-		YoutubeIcon,
-		InstagramIcon,
-		TwitterIcon,
+		// TiktokIcon,
+		// YoutubeIcon,
+		// InstagramIcon,
+		// TwitterIcon,
 	];
 
 	return (

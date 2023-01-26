@@ -7,6 +7,7 @@ export type DiscordIconProps = HTMLAttributes<SVGElement>;
 export const DiscordIcon = (props: DiscordIconProps) => {
 	return (
 		<svg
+			onClick={() => window.open("https://discord.gg/tddUyP9R", "_blank")}
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 41.34 32"
 			{...props}

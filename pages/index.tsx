@@ -25,8 +25,8 @@ export default function Home() {
 				<meta name="robots" content="noindex, nofollow" />
 				<meta property="og:title" content="UWU Games - Best UWU games" />
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://www.uwugames.com" />
-				<meta property="og:image" content="https://www.uwugames.com" />
+				<meta property="og:url" content="https://uwu.games" />
+				<meta property="og:image" content="https://uwu.games/logo.png" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 

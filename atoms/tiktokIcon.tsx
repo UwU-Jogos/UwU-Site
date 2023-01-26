@@ -7,6 +7,7 @@ export type TiktokIconProps = HTMLAttributes<SVGElement>;
 export const TiktokIcon = (props: TiktokIconProps) => {
 	return (
 		<svg
+			onClick={() => window.open("https://discord.gg/tddUyP9R", "_blank")}
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 27.81 32"
 			{...props}
