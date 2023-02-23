@@ -6,8 +6,7 @@ export function SEO(): JSX.Element {
 	return (
 		<>
 			<title>
-				UWU Games - Desenvolvedora de jogos apaixonada por criar formas de
-				diversão
+				UWU Games - A game dev company
 			</title>
 			<meta
 				name="description"
