@@ -1,11 +1,10 @@
 import { Colors } from "@/utils/theme";
 import $ from "@master/literal";
-import React, { HTMLAttributes } from "react";
+import { HTMLAttributes } from "react";
 
-export type WatermarkProps = HTMLAttributes<SVGElement>;
+export type UwuIconProps = HTMLAttributes<SVGElement>;
 
-export const Watermark = (props: WatermarkProps) => {
-
+export const UwuIcon = (props: UwuIconProps) => {
 	return (
 		<svg
 			id="Layer_2"
@@ -20,9 +19,7 @@ export const Watermark = (props: WatermarkProps) => {
 				h:40% 
 				w:30%
 				fill:#ebc6d7 
-				fill:${Colors.Pink}:hover 
 				stroke:#ebc6d7
-				stroke:${Colors.Pink}:hover
 			`}
 		>
 			<g opacity={0.05} id="Layer_1-2" data-name="Layer 1">

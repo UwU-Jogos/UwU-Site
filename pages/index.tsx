@@ -2,7 +2,7 @@ import { Computer } from "@/atoms/computer";
 import { FloatingPanel } from "@/atoms/floatingPanel";
 import { SEO } from "@/atoms/seo";
 import { Soon } from "@/atoms/soon";
-import { Watermark } from "@/atoms/watermark";
+import { Watermark } from "@/molecules/watermark";
 import { Nav } from "@/molecules/nav";
 import { Colors } from "@/utils/theme";
 import Head from "next/head";
