@@ -35,7 +35,7 @@ export function SEO(): JSX.Element {
 			<meta name="twitter:card" content="summary_large_image" />
 			<meta
 				name="twitter:title"
-				content="UWU Games - Desenvolvedora de jogos apaixonada por criar formas de diversão"
+				content="maldito SEO desgraçado porra, atualiza"
 			/>
 			<meta
 				name="twitter:description"
