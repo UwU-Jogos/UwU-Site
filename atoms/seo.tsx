@@ -19,7 +19,7 @@ export function SEO(): JSX.Element {
 			<meta name="robots" content="index, follow" />
 			<meta
 				property="og:title"
-				content="Coming soon"
+				content="aaaaaaaaaaaaaaaaaaaaaaaaaaa"
 			/>
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://uwu.games" />
