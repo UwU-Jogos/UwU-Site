@@ -27,4 +27,4 @@ jobs:
           aws-region: sa-east-1
           
       - name: Copy files to website with AWS CLI
-        run: aws s3 . sync s3://uwu.games
+        run: aws s3 sync . s3://uwu.games
