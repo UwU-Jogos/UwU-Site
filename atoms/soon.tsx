@@ -5,7 +5,7 @@ export const Soon = () => {
 	return (
 		<TypeAnimation
 			className={`f:128 f:${Colors.Primary} f:bold`}
-			sequence={["TEST", 500, "SOON.", 500, "SOON..", 500, "SOON...", 500]}
+			sequence={["SOON", 500, "SOON.", 500, "SOON..", 500, "SOON...", 500]}
 			wrapper="h1"
 			cursor={false}
 			repeat={Infinity}
