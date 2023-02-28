@@ -1,13 +1,13 @@
 name: Continuous Delivery
 
 on:
-  pull_request:
-    types: [labeled]
+  push:
+    tags:
+      - v0.**
+      - v1.**
 
 jobs:
   build:
-    if: ${{ github.event.label.name == 'Prod' }}
-    
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
