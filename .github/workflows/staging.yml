@@ -1,10 +1,11 @@
-name: Continuous Delivery
+# builds on https://staging.uwu.games
+name: staging CD
 
 on:
   push:
-    tags:
-      - v0.**
-      - v1.**
+    paths-ignore:
+      - '.github/**'
+    branches: "main"
 
 jobs:
   build:
@@ -30,4 +31,4 @@ jobs:
           aws-region: sa-east-1
           
       - name: Copy files to website with AWS CLI
-        run: aws s3 sync ./out s3://uwu.games
+        run: aws s3 sync ./out s3://staging.uwu.games

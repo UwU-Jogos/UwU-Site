@@ -9,7 +9,7 @@ import Head from "next/head";
 
 export default function Home() {
 	const openDiscord = () => {
-		window.open("https://discord.gg/tddUyP9R", "_blank");
+		window.open("https://discord.uwu.games", "_blank");
 	};
 
 	return (
