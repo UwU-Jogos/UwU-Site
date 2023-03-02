@@ -9,11 +9,11 @@ export const OwoIcon = (props: OwoIconProps) => {
 			id="Layer_2"
 			data-name="Layer 2"
 			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 618.98 386.26"
+			viewBox="0 0 618.91 324.2"
 			{...props}
             className={$`
                 abs 
-                bottom:0 
+                bottom:45
                 left:40 
                 h:40% 
                 w:30%
@@ -21,9 +21,6 @@ export const OwoIcon = (props: OwoIconProps) => {
                 stroke:#ebc6d7
             `}
 		>
-			<defs>
-				<style>{".cls-2{fill:#eae5e4}"}</style>
-			</defs>
 			<g opacity={0.05} id="Layer_1-2" data-name="Layer 1">
 				<path
 					className="cls-2"
