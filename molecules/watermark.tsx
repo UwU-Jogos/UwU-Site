@@ -21,21 +21,23 @@ export const Watermark = (_props: WatermarkProps) => {
 		setIsHovered(false);
 	};
 
-	const startAnimate = () => {
+	const startAnimate = async () => {
 		setIsAnimated(true);
 		setIsHovered(true);
 
 		if (isAnimated) return;
 
-		setTimeout(async () => {
-			setIsAnimated(false);
-			await sleep(250);
-			setIsHovered(false);
-			await sleep(250);
-			setIsHovered(true);
-			await sleep(250);
-			setIsHovered(false);
-		}, 5000);
+		await sleep(1000);
+		setIsHovered(false);
+		await sleep(300);
+		setIsHovered(true);
+		await sleep(300);
+		setIsHovered(false);
+		await sleep(300);
+		setIsHovered(true);
+		await sleep(5000);
+		setIsHovered(false);
+		setIsAnimated(false);
 	};
 
 	return (
