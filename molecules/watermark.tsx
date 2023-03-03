@@ -27,15 +27,15 @@ export const Watermark = (_props: WatermarkProps) => {
 
 		if (isAnimated) return;
 
-		await sleep(1000);
+		await sleep(1500);
 		setIsHovered(false);
-		await sleep(300);
+		await sleep(150);
 		setIsHovered(true);
-		await sleep(300);
+		await sleep(150);
 		setIsHovered(false);
-		await sleep(300);
+		await sleep(200);
 		setIsHovered(true);
-		await sleep(5000);
+		await sleep(2000);
 		setIsHovered(false);
 		setIsAnimated(false);
 	};
