@@ -11,11 +11,16 @@ export const FloatingPanel = (props: FloatingPanelProps) => {
 			viewBox="0 0 1268 1030.97"
 			{...props}
             className={$`
+				// add transition opacity
                 abs
-                bottom:-3rem
-				h:80%
+                bottom:0;
 				right:0
                 z:-1
+				h:${1030 * 0.03}%@<sm
+				h:${1030 * 0.04}%@<md
+				h:${1030 * 0.05}%@<lg
+				h:${1030 * 0.06}%@<xl
+				h:${1030 * 0.08}%
             `}
 		>
 			<defs>
