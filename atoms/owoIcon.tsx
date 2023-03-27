@@ -9,22 +9,22 @@ export const OwoIcon = (props: OwoIconProps) => {
 			id="Layer_2"
 			data-name="Layer 2"
 			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 618.91 324.2"
+			viewBox="0 0 618.98 386.26"
 			{...props}
             className={$`
                 abs 
-                bottom:45
+				bottom:50
                 left:40 
-				h:324
-                w:618
-				h:${324.2 * 0.3}@<sm
-				w:${618.91 * 0.3}@<sm
-				h:${324.2 * 0.4}@<md
-				w:${618.91 * 0.4}@<md
-				h:${324.2 * 0.5}@<lg
-				w:${618.91 * 0.5}@<lg
-				h:${324.2 * 0.7}@<xl
-				w:${618.91 * 0.7}@<xl
+				h:386.26
+                w:618.98
+				h:${386.26 * 0.3}@<sm
+				w:${618.98 * 0.3}@<sm
+				h:${386.26 * 0.4}@<md
+				w:${618.98 * 0.4}@<md
+				h:${386.26 * 0.5}@<lg
+				w:${618.98 * 0.5}@<lg
+				h:${386.26 * 0.7}@<xl
+				w:${618.98 * 0.7}@<xl
 				fill:#ebc6d7 
                 stroke:#ebc6d7
             `}

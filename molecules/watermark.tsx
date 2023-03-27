@@ -45,6 +45,7 @@ export const Watermark = (_props: WatermarkProps) => {
 			onMouseEnter={handleHover}
 			onMouseLeave={handleLeave}
 			onClick={startAnimate}
+			className="hide@<sm"
 		>
 			{isHovered ? <OwoIcon /> : <UwuIcon />}
 		</div>
